@@ -1,6 +1,6 @@
 [template]
 cargo_generate_version = ">=0.17.4"
-ignore = [".git", ".cargo", "rust-toolchain.toml", "build.rs", "memory.x"]
+ignore = [".git"]
 
 [placeholders.network]
 type = "bool"
