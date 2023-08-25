@@ -1,0 +1,8 @@
+[template]
+cargo_generate_version = ">=0.17.4"
+ignore = [".git", ".cargo", "rust-toolchain.toml", "build.rs", "memory.x"]
+
+[placeholders.network]
+type = "bool"
+prompt = "Use additional dependencies for network?"
+default = false
